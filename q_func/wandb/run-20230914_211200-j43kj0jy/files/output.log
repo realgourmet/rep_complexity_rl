@@ -1,0 +1,15 @@
+
+Epoch 1/100, Training Loss: 0.1147, Relative Loss: 0.7147
+Traceback (most recent call last):
+  File "/home/baihe_huang/q_func/cs285/scripts/approx.py", line 252, in <module>
+  File "/home/baihe_huang/q_func/cs285/scripts/approx.py", line 180, in fit_model
+    optimizer.step()
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 280, in wrapper
+    out = func(*args, **kwargs)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/optim/optimizer.py", line 33, in _use_grad
+    ret = func(self, *args, **kwargs)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/optim/adam.py", line 132, in step
+    self._init_group(
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/optim/adam.py", line 78, in _init_group
+    params_with_grad.append(p)
+KeyboardInterrupt

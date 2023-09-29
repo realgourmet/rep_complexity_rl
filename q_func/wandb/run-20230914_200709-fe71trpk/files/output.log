@@ -1,0 +1,12 @@
+
+Epoch 1/100, Training Loss: 0.1824, Relative Loss: 0.4567
+Epoch 11/100, Training Loss: 0.0725, Relative Loss: 0.1815
+Epoch 21/100, Training Loss: 0.0540, Relative Loss: 0.1351
+Epoch 31/100, Training Loss: 0.0432, Relative Loss: 0.1082
+Epoch 41/100, Training Loss: 0.0314, Relative Loss: 0.0787
+Epoch 51/100, Training Loss: 0.0234, Relative Loss: 0.0586
+Epoch 61/100, Training Loss: 0.0210, Relative Loss: 0.0527
+Epoch 71/100, Training Loss: 0.0200, Relative Loss: 0.0502
+Epoch 81/100, Training Loss: 0.0196, Relative Loss: 0.0491
+Epoch 91/100, Training Loss: 0.0193, Relative Loss: 0.0483
+Test Loss: 0.0178, Relative Loss: 0.0446

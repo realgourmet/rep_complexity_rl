@@ -1,0 +1,18 @@
+
+Epoch 1/100, Training Loss: 0.1808, Relative Loss: 0.4526
+Epoch 11/100, Training Loss: 0.0708, Relative Loss: 0.1774
+Epoch 21/100, Training Loss: 0.0610, Relative Loss: 0.1527
+Epoch 31/100, Training Loss: 0.0477, Relative Loss: 0.1194
+Epoch 41/100, Training Loss: 0.0342, Relative Loss: 0.0856
+Traceback (most recent call last):
+  File "/home/baihe_huang/q_func/cs285/scripts/approx.py", line 248, in <module>
+    approx.fit_model(model, criterion, optimizer, train_loader, test_loader, total_variance)
+  File "/home/baihe_huang/q_func/cs285/scripts/approx.py", line 177, in fit_model
+    loss = criterion(outputs, labels)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/modules/loss.py", line 536, in forward
+    return F.mse_loss(input, target, reduction=self.reduction)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/functional.py", line 3295, in mse_loss
+    return torch._C._nn.mse_loss(expanded_input, expanded_target, _Reduction.get_enum(reduction))
+KeyboardInterrupt

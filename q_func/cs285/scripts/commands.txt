@@ -1,0 +1,56 @@
+python cs285/scripts/run_hw3_sac.py --env_name InvertedPendulum-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_pendulum --seed 1 --save_params
+
+python cs285/scripts/rollout_sac.py --env_name InvertedPendulum-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_pendulum --seed 1 --rollout_path sac_pendulum
+
+
+python cs285/scripts/rollout_dqn.py --env_name LunarLander-v3 --exp_name dqn_training --double_q --seed 3 --save_params --n_iter 20000
+
+python cs285/scripts/run_hw3_dqn.py --env_name LunarLander-v3 --exp_name dqn_training --double_q --seed 3 --save_params
+
+
+
+python cs285/scripts/rollout.py --env_name HalfCheetah-v4 --ep_len 150 --discount 0.99 --scalar_log_freq 1500 -n 200000 -l 2 -s 256 -b 1500 -eb 1500 -lr 0.0003 --init_temperature 0.1 --seed 1
+
+python cs285/scripts/run_hw3_sac.py --env_name HalfCheetah-v4 --ep_len 150 --discount 0.99 --scalar_log_freq 1500 -n 2000000 -l 2 -s 256 -b 1500 -eb 1500 -lr 0.0003 --init_temperature 0.1 --rollout_path sac_cheetah
+
+
+python cs285/scripts/run_hw3_sac.py --env_name Ant-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_ant --seed 1 --save_params
+
+python cs285/scripts/rollout_sac.py --env_name Ant-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_ant --seed 1 --rollout_path sac_ant
+
+python cs285/scripts/approx.py --rollout_path sac_ant
+
+
+python cs285/scripts/run_hw3_sac.py --env_name Walker2d-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.003 --init_temperature 0.1 --exp_name sac_walker --seed 1 --save_params
+
+python cs285/scripts/rollout_sac.py --env_name Walker2d-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_walker --seed 1 --rollout_path sac_walker
+
+
+
+python cs285/scripts/run_hw3_sac.py --env_name Reacher-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.00001 --init_temperature 0.1 --exp_name sac_reacher --seed 1 --save_params --num_actor_updates_per_agent_update 10
+
+python cs285/scripts/rollout_sac.py --env_name Reacher-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_reacher --seed 1 --rollout_path sac_reacher
+
+
+
+python cs285/scripts/run_hw3_sac.py --env_name Hopper-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_hopper --seed 1 --save_params
+
+python cs285/scripts/rollout_sac.py --env_name Hopper-v4 --ep_len 1000 --discount 0.99 --scalar_log_freq 1000  -n 100000 -l 2 -s 256 -b 1000 -eb 2000 -lr 0.0003 --init_temperature 0.1 --exp_name sac_hopper --seed 1 --rollout_path sac_hopper
+
+python cs285/scripts/approx.py --rollout_path sac_hopper
+
+
+
+
+
+python cs285/scripts/run_hw3_actor_critic.py --env_name Ant-v4 --ep_len 150 --discount 0.90 --scalar_log_freq 1 -n 500 -l 3 -s 256 -b 30000 -eb 1500 -lr 0.02 --exp_name ac_ant
+
+python cs285/scripts/rollout_ac.py --env_name Ant-v4 --ep_len 200 --discount 0.95 --scalar_log_freq 1 -n 10 -l 3 -s 128 -b 30000 -eb 1500 -lr 0.001 --exp_name ac_Ant-v4_rollout
+
+python cs285/scripts/approx.py --rollout_path sac_ant
+
+
+
+python cs285/scripts/run_hw3_actor_critic.py --env_name InvertedPendulum-v4 --ep_len 1000 --discount 0.95 -n 500 -l 3 -s 256 -b 5000 -lr 0.01 --exp_name ac_pendulum
+
+python cs285/scripts/rollout_ac.py --env_name Ant-v4 --ep_len 150 --discount 0.90 --scalar_log_freq 1 -n 150 -l 2 -s 32 -b 30000 -eb 1500 -lr 0.02 -init_temperature 0.1 --exp_name ac_ant --seed 1 --rollout_path ac_ant

@@ -1,0 +1,19 @@
+2023-09-14 19:43:23,193 INFO    StreamThr :21208 [internal.py:wandb_internal():86] W&B internal server running at pid: 21208, started at: 2023-09-14 19:43:23.193443
+2023-09-14 19:43:23,198 DEBUG   HandlerThread:21208 [handler.py:handle_request():144] handle_request: status
+2023-09-14 19:43:23,198 INFO    WriterThread:21208 [datastore.py:open_for_write():85] open: /home/baihe_huang/q_func/wandb/run-20230914_194323-4vsscuea/run-4vsscuea.wandb
+2023-09-14 19:43:23,199 DEBUG   SenderThread:21208 [sender.py:send():379] send: header
+2023-09-14 19:43:23,199 DEBUG   SenderThread:21208 [sender.py:send():379] send: run
+2023-09-14 19:43:24,074 DEBUG   HandlerThread:21208 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-14 19:43:24,074 INFO    HandlerThread:21208 [handler.py:finish():840] shutting down handler
+2023-09-14 19:43:24,199 INFO    WriterThread:21208 [datastore.py:close():294] close: /home/baihe_huang/q_func/wandb/run-20230914_194323-4vsscuea/run-4vsscuea.wandb
+2023-09-14 19:43:24,469 INFO    SenderThread:21208 [dir_watcher.py:__init__():211] watching files in: /home/baihe_huang/q_func/wandb/run-20230914_194323-4vsscuea/files
+2023-09-14 19:43:24,469 INFO    SenderThread:21208 [sender.py:_start_run_threads():1121] run started: 4vsscuea with start time 1694720603.191285
+2023-09-14 19:43:24,469 INFO    SenderThread:21208 [sender.py:finish():1531] shutting down sender
+2023-09-14 19:43:24,469 INFO    SenderThread:21208 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-14 19:43:25,469 INFO    SenderThread:21208 [dir_watcher.py:finish():388] scan: /home/baihe_huang/q_func/wandb/run-20230914_194323-4vsscuea/files
+2023-09-14 19:43:25,470 INFO    SenderThread:21208 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230914_194323-4vsscuea/files/config.yaml config.yaml
+2023-09-14 19:43:25,470 INFO    SenderThread:21208 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-14 19:43:25,470 INFO    SenderThread:21208 [file_pusher.py:join():181] waiting for file pusher
+2023-09-14 19:43:25,769 INFO    wandb-upload_0:21208 [upload_job.py:push():131] Uploaded file /home/baihe_huang/q_func/wandb/run-20230914_194323-4vsscuea/files/config.yaml
+2023-09-14 19:43:25,971 INFO    SenderThread:21208 [file_stream.py:finish():594] file stream finish called
+2023-09-14 19:43:26,083 INFO    SenderThread:21208 [file_stream.py:finish():598] file stream finish is done

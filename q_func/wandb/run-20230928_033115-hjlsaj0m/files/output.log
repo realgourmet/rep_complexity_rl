@@ -1,0 +1,20 @@
+
+Epoch 1/100, Training Loss: 5.1663, Relative Loss: 5.2966
+Traceback (most recent call last):
+  File "/home/baihe_huang/q_func/cs285/scripts/approx_ac.py", line 253, in <module>
+    approx.fit_model(model, criterion, optimizer, train_loader, test_loader, total_variance)
+  File "/home/baihe_huang/q_func/cs285/scripts/approx_ac.py", line 176, in fit_model
+    for batch_idx, (inputs, labels) in progress_bar:
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 633, in __next__
+    data = self._next_data()
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/utils/data/dataloader.py", line 677, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/utils/data/_utils/fetch.py", line 51, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 196, in __getitem__
+    return tuple(tensor[index] for tensor in self.tensors)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/utils/data/dataset.py", line 196, in <genexpr>
+    return tuple(tensor[index] for tensor in self.tensors)
+KeyboardInterrupt

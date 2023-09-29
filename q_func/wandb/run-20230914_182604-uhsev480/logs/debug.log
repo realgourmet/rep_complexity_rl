@@ -1,0 +1,13 @@
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_setup.py:_flush():76] Current SDK version is 0.15.10
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_setup.py:_flush():76] Configure stats pid to 18198
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_setup.py:_flush():76] Loading settings from /home/baihe_huang/.config/wandb/settings
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_setup.py:_flush():76] Loading settings from /home/baihe_huang/q_func/wandb/settings
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'cs285/scripts/approx.py', 'program': '/home/baihe_huang/q_func/cs285/scripts/approx.py'}
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_init.py:_log_setup():524] Logging user logs to /home/baihe_huang/q_func/wandb/run-20230914_182604-uhsev480/logs/debug.log
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_init.py:_log_setup():525] Logging internal logs to /home/baihe_huang/q_func/wandb/run-20230914_182604-uhsev480/logs/debug-internal.log
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_init.py:init():564] calling init triggers
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_init.py:init():571] wandb.init called with sweep_config: {}
+config: {'epochs': 100, 'task': 'model', 'environment': 'sac_ant'}
+2023-09-14 18:26:04,004 INFO    MainThread:18198 [wandb_init.py:init():609] wandb.init() called when a run is still active
+2023-09-14 18:28:12,097 WARNING MsgRouterThr:18198 [router.py:message_loop():77] message_loop has been closed

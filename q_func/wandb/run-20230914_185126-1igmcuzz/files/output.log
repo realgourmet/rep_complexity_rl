@@ -1,0 +1,18 @@
+
+Epoch 1/100, Training Loss: 0.0194, Relative Loss: 0.2337
+Traceback (most recent call last):
+  File "/home/baihe_huang/q_func/cs285/scripts/approx.py", line 247, in <module>
+    approx.fit_model(model, criterion, optimizer, train_loader, test_loader, total_variance)
+  File "/home/baihe_huang/q_func/cs285/scripts/approx.py", line 176, in fit_model
+    outputs = model(inputs)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/modules/container.py", line 217, in forward
+    input = module(input)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1501, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/modules/activation.py", line 103, in forward
+    return F.relu(input, inplace=self.inplace)
+  File "/home/baihe_huang/anaconda3/envs/rl/lib/python3.10/site-packages/torch/nn/functional.py", line 1457, in relu
+    result = torch.relu(input)
+KeyboardInterrupt

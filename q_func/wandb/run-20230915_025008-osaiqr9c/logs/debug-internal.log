@@ -1,0 +1,810 @@
+2023-09-15 02:50:08,706 INFO    StreamThr :60570 [internal.py:wandb_internal():86] W&B internal server running at pid: 60570, started at: 2023-09-15 02:50:08.706057
+2023-09-15 02:50:08,710 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status
+2023-09-15 02:50:08,710 INFO    WriterThread:60570 [datastore.py:open_for_write():85] open: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/run-osaiqr9c.wandb
+2023-09-15 02:50:08,711 DEBUG   SenderThread:60570 [sender.py:send():379] send: header
+2023-09-15 02:50:08,711 DEBUG   SenderThread:60570 [sender.py:send():379] send: run
+2023-09-15 02:50:09,782 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: check_version
+2023-09-15 02:50:09,782 INFO    SenderThread:60570 [dir_watcher.py:__init__():211] watching files in: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files
+2023-09-15 02:50:09,782 INFO    SenderThread:60570 [sender.py:_start_run_threads():1121] run started: osaiqr9c with start time 1694746208.703939
+2023-09-15 02:50:09,783 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: check_version
+2023-09-15 02:50:09,884 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: run_start
+2023-09-15 02:50:09,891 DEBUG   HandlerThread:60570 [system_info.py:__init__():32] System info init
+2023-09-15 02:50:09,891 DEBUG   HandlerThread:60570 [system_info.py:__init__():47] System info init done
+2023-09-15 02:50:09,891 INFO    HandlerThread:60570 [system_monitor.py:start():181] Starting system monitor
+2023-09-15 02:50:09,891 INFO    SystemMonitor:60570 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2023-09-15 02:50:09,891 INFO    HandlerThread:60570 [system_monitor.py:probe():201] Collecting system info
+2023-09-15 02:50:09,893 INFO    SystemMonitor:60570 [interfaces.py:start():190] Started cpu monitoring
+2023-09-15 02:50:09,894 INFO    SystemMonitor:60570 [interfaces.py:start():190] Started disk monitoring
+2023-09-15 02:50:09,895 INFO    SystemMonitor:60570 [interfaces.py:start():190] Started gpu monitoring
+2023-09-15 02:50:09,895 INFO    SystemMonitor:60570 [interfaces.py:start():190] Started memory monitoring
+2023-09-15 02:50:09,896 INFO    SystemMonitor:60570 [interfaces.py:start():190] Started network monitoring
+2023-09-15 02:50:09,898 DEBUG   HandlerThread:60570 [system_info.py:probe():196] Probing system
+2023-09-15 02:50:09,899 DEBUG   HandlerThread:60570 [system_info.py:probe():244] Probing system done
+2023-09-15 02:50:09,899 DEBUG   HandlerThread:60570 [system_monitor.py:probe():210] {'os': 'Linux-5.10.0-25-cloud-amd64-x86_64-with-glibc2.31', 'python': '3.10.12', 'heartbeatAt': '2023-09-15T02:50:09.898947', 'startedAt': '2023-09-15T02:50:08.698853', 'docker': None, 'cuda': None, 'args': ('--rollout_path', 'sac_walker', '--task', 'value'), 'state': 'running', 'program': '/home/baihe_huang/q_func/cs285/scripts/approx.py', 'codePathLocal': 'cs285/scripts/approx.py', 'codePath': 'cs285/scripts/approx.py', 'host': 'rlapp', 'username': 'baihe_huang', 'executable': '/home/baihe_huang/anaconda3/envs/rl/bin/python', 'cpu_count': 1, 'cpu_count_logical': 1, 'cpu_freq': {'current': 2199.998, 'min': 0.0, 'max': 0.0}, 'cpu_freq_per_core': [{'current': 2199.998, 'min': 0.0, 'max': 0.0}], 'disk': {'/': {'total': 196.61751174926758, 'used': 36.72559356689453}}, 'gpu': 'Tesla V100-SXM2-16GB', 'gpu_count': 1, 'gpu_devices': [{'name': 'Tesla V100-SXM2-16GB', 'memory_total': 17179869184}], 'memory': {'total': 3.5927658081054688}}
+2023-09-15 02:50:09,899 INFO    HandlerThread:60570 [system_monitor.py:probe():211] Finished collecting system info
+2023-09-15 02:50:09,899 INFO    HandlerThread:60570 [system_monitor.py:probe():214] Publishing system info
+2023-09-15 02:50:09,899 DEBUG   HandlerThread:60570 [system_info.py:_save_pip():52] Saving list of pip packages installed into the current environment
+2023-09-15 02:50:09,899 DEBUG   HandlerThread:60570 [system_info.py:_save_pip():68] Saving pip packages done
+2023-09-15 02:50:09,899 DEBUG   HandlerThread:60570 [system_info.py:_save_conda():75] Saving list of conda packages installed into the current environment
+2023-09-15 02:50:10,784 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/requirements.txt
+2023-09-15 02:50:10,784 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/conda-environment.yaml
+2023-09-15 02:50:11,783 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/conda-environment.yaml
+2023-09-15 02:50:11,807 DEBUG   HandlerThread:60570 [system_info.py:_save_conda():87] Saving conda packages done
+2023-09-15 02:50:11,807 INFO    HandlerThread:60570 [system_monitor.py:probe():216] Finished publishing system info
+2023-09-15 02:50:11,815 DEBUG   SenderThread:60570 [sender.py:send():379] send: files
+2023-09-15 02:50:11,815 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-metadata.json with policy now
+2023-09-15 02:50:11,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:50:11,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:50:11,839 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:50:12,024 DEBUG   SenderThread:60570 [sender.py:send():379] send: telemetry
+2023-09-15 02:50:12,300 INFO    wandb-upload_0:60570 [upload_job.py:push():131] Uploaded file /tmp/tmp_k9ydatewandb/1vyvlc1m-wandb-metadata.json
+2023-09-15 02:50:12,783 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-metadata.json
+2023-09-15 02:50:14,025 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:15,784 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:50:17,785 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:50:19,264 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:21,922 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:21,923 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:21,923 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:21,923 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:22,786 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_created():271] file/dir created: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:24,924 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:25,235 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:25,235 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:25,236 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:25,236 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:25,787 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:26,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:50:26,822 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:50:26,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:50:28,509 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:28,510 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:28,510 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:28,511 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:28,788 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:30,511 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:31,787 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:31,788 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:31,788 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:31,788 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:31,790 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:35,076 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:35,077 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:35,077 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:35,077 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:35,791 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:36,078 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:38,386 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:38,387 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:38,387 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:38,388 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:38,792 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:41,396 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:41,793 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/config.yaml
+2023-09-15 02:50:41,806 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:41,806 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:41,806 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:41,807 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:41,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:50:41,822 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:50:41,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:50:42,793 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:45,023 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:45,024 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:45,024 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:45,024 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:45,794 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:47,025 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:48,314 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:48,314 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:48,315 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:48,315 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:48,795 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:49,795 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:50:51,619 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:51,619 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:51,619 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:51,620 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:51,796 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:52,620 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:54,925 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:54,926 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:54,926 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:54,927 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:55,797 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:50:56,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:50:56,822 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:50:56,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:50:57,901 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:50:58,205 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:50:58,206 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:50:58,206 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:50:58,207 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:50:58,798 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:01,539 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:01,540 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:01,540 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:01,540 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:01,799 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:03,542 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:04,844 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:04,845 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:04,845 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:04,845 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:05,800 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:08,045 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:08,045 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:08,046 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:08,046 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:08,801 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:09,046 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:09,896 DEBUG   SystemMonitor:60570 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2023-09-15 02:51:09,897 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:51:11,291 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:11,292 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:11,292 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:11,292 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:11,802 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:11,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:51:11,822 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:51:11,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:51:14,543 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:14,544 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:14,544 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:14,545 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:14,545 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:14,803 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:17,779 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:17,780 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:17,780 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:17,780 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:17,804 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:19,781 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:21,073 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:21,073 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:21,074 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:21,074 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:21,806 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:23,806 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:51:24,377 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:24,378 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:24,378 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:24,378 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:24,807 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:25,379 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:26,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:51:26,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:51:26,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:51:27,723 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:27,723 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:27,724 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:27,724 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:27,807 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:30,725 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:30,951 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:30,952 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:30,952 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:30,952 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:31,809 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:34,184 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:34,184 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:34,184 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:34,185 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:34,810 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:36,185 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:37,480 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:37,480 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:37,480 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:37,481 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:37,811 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:39,897 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:51:40,762 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:40,763 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:40,763 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:40,764 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:40,812 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:41,764 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:41,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:51:41,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:51:41,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:51:44,090 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:44,090 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:44,090 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:44,091 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:44,813 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:47,091 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:47,441 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:47,442 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:47,442 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:47,442 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:47,814 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:50,754 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:50,754 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:50,755 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:50,755 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:50,815 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:52,755 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:51:54,080 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:54,080 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:54,080 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:54,081 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:54,816 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:55,817 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:51:56,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:51:56,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:51:56,832 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:51:57,412 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:51:57,413 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:51:57,413 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:51:57,413 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:51:57,817 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:51:58,414 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:00,737 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:00,737 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:00,737 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:00,738 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:00,818 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:03,739 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:04,067 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:04,068 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:04,068 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:04,069 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:04,820 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:07,249 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:07,249 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:07,250 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:07,250 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:07,821 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:09,250 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:09,898 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:52:10,553 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:10,553 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:10,554 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:10,554 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:10,822 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:11,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:52:11,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:52:11,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:52:13,826 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:13,827 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:13,827 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:13,828 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:14,823 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:14,828 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:17,137 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:17,138 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:17,138 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:17,138 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:17,824 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:20,139 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:20,451 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:20,452 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:20,452 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:20,452 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:20,825 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:23,772 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:23,772 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:23,772 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:23,773 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:23,826 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:25,773 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:26,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:52:26,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:52:26,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:52:27,087 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:27,088 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:27,088 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:27,089 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:27,827 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:29,828 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:52:30,342 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:30,343 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:30,343 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:30,343 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:30,828 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:31,344 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:33,639 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:33,640 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:33,640 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:33,640 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:33,829 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:36,641 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:36,906 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:36,907 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:36,907 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:36,907 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:37,831 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:39,898 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:52:40,152 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:40,153 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:40,153 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:40,153 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:40,832 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:41,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:52:41,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:52:41,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:52:41,905 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:43,419 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:43,420 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:43,420 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:43,420 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:43,833 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:46,616 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:46,616 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:46,617 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:46,617 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:46,834 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:47,617 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:49,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:49,834 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:49,834 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:49,835 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:49,835 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:52,835 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:53,011 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:53,012 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:53,012 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:53,012 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:53,836 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:56,281 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:56,283 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:56,283 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:56,283 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:56,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:52:56,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:52:56,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:52:56,837 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:52:57,980 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:52:59,547 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:52:59,548 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:52:59,548 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:52:59,549 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:52:59,838 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:01,839 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:53:02,778 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:02,778 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:02,779 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:02,779 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:02,839 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:03,779 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:06,003 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:06,004 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:06,004 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:06,004 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:06,840 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:09,005 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:09,245 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:09,246 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:09,246 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:09,246 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:09,841 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:09,899 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:53:11,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:53:11,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:53:11,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:53:12,484 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:12,485 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:12,485 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:12,485 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:12,842 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:14,486 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:15,709 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:15,709 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:15,709 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:15,710 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:15,843 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:18,972 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:18,972 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:18,973 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:18,973 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:19,844 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:19,973 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:22,176 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:22,177 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:22,177 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:22,177 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:22,845 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:25,178 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:25,577 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:25,577 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:25,578 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:25,578 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:25,846 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:26,823 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:53:26,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:53:26,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:53:28,798 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:28,799 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:28,799 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:28,799 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:28,847 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:30,800 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:32,024 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:32,025 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:32,025 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:32,025 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:32,848 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:33,849 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:53:35,302 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:35,303 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:35,303 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:35,303 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:35,849 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:36,304 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:38,621 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:38,622 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:38,622 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:38,622 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:38,850 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:39,899 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:53:41,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:53:41,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:53:41,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:53:41,902 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:41,907 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:41,907 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:41,908 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:41,908 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:42,852 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:45,121 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:45,122 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:45,122 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:45,122 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:45,853 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:47,123 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:48,354 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:48,354 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:48,354 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:48,355 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:48,853 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:51,554 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:51,554 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:51,555 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:51,555 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:51,854 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:52,555 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:54,839 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:54,840 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:54,840 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:54,840 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:54,855 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:53:56,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:53:56,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:53:56,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:53:57,924 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:53:58,071 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:53:58,072 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:53:58,072 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:53:58,072 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:53:58,856 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:01,288 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:01,289 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:01,289 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:01,289 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:01,857 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:03,290 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:04,525 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:04,525 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:04,525 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:04,525 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:04,858 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:05,859 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:54:07,749 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:07,749 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:07,750 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:07,750 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:07,859 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:08,750 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:09,900 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:54:11,019 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:11,019 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:11,019 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:11,020 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:11,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:54:11,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:54:11,833 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:54:11,861 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:13,974 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:14,289 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:14,289 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:14,290 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:14,290 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:14,861 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:17,502 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:17,503 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:17,503 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:17,503 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:17,862 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:19,504 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:20,749 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:20,749 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:20,750 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:20,750 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:20,863 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:24,018 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:24,019 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:24,019 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:24,019 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:24,865 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:25,020 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:26,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:54:26,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:54:26,834 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:54:27,287 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:27,288 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:27,288 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:27,288 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:27,865 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:30,289 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:30,459 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:30,460 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:30,460 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:30,460 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:30,867 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:33,664 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:33,665 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:33,665 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:33,665 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:33,867 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:35,666 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:36,822 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:36,823 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:36,823 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:36,824 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:36,868 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:37,869 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:54:39,900 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:54:40,076 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:40,076 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:40,076 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:40,077 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:40,870 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:41,077 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:41,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:54:41,824 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:54:41,834 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:54:43,279 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:43,280 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:43,280 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:43,280 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:43,871 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:46,281 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:46,482 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:46,483 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:46,483 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:46,483 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:46,872 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:49,733 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:49,733 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:49,733 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:49,734 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:49,872 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:51,734 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:52,967 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:52,968 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:52,968 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:52,968 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:53,874 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:56,147 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:56,148 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:56,148 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:56,148 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:56,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:54:56,825 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:54:56,834 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:54:56,875 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:54:56,933 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:54:59,379 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:54:59,379 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:54:59,380 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:54:59,380 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:54:59,875 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:02,381 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:02,600 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:02,601 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:02,601 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:02,602 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:02,876 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:05,857 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:05,858 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:05,858 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:05,858 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:05,877 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:07,859 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:09,085 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:09,085 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:09,086 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:09,086 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:09,878 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:09,901 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:55:11,824 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:55:11,825 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:55:11,834 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:55:11,879 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:55:12,416 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:12,416 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:12,416 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:12,417 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:12,879 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:13,417 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:15,695 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:15,696 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:15,696 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:15,696 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:15,880 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:18,697 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:19,020 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:19,021 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:19,021 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:19,021 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:19,881 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:22,220 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:22,221 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:22,221 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:22,221 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:22,882 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:24,222 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:25,475 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:25,476 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:25,476 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:25,476 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:25,883 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:26,825 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: stop_status
+2023-09-15 02:55:26,825 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: stop_status
+2023-09-15 02:55:26,834 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:55:28,694 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:28,695 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:28,695 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:28,696 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:28,884 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:29,696 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:31,903 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:31,903 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:31,903 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:31,904 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:32,886 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:34,905 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:35,119 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:35,120 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:35,120 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:35,120 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:35,886 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:38,344 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: partial_history
+2023-09-15 02:55:38,344 DEBUG   SenderThread:60570 [sender.py:send():379] send: history
+2023-09-15 02:55:38,344 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: summary_record
+2023-09-15 02:55:38,345 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:38,887 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:39,353 DEBUG   SenderThread:60570 [sender.py:send():379] send: exit
+2023-09-15 02:55:39,353 INFO    SenderThread:60570 [sender.py:send_exit():584] handling exit code: 0
+2023-09-15 02:55:39,353 INFO    SenderThread:60570 [sender.py:send_exit():586] handling runtime: 329
+2023-09-15 02:55:39,353 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:39,353 INFO    SenderThread:60570 [sender.py:send_exit():592] send defer
+2023-09-15 02:55:39,354 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,354 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 0
+2023-09-15 02:55:39,354 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,354 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 0
+2023-09-15 02:55:39,354 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 1
+2023-09-15 02:55:39,354 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,354 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 1
+2023-09-15 02:55:39,354 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,354 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 1
+2023-09-15 02:55:39,354 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 2
+2023-09-15 02:55:39,354 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,354 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 2
+2023-09-15 02:55:39,354 INFO    HandlerThread:60570 [system_monitor.py:finish():190] Stopping system monitor
+2023-09-15 02:55:39,354 DEBUG   SystemMonitor:60570 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2023-09-15 02:55:39,355 DEBUG   SystemMonitor:60570 [system_monitor.py:_start():170] Publishing last batch of metrics
+2023-09-15 02:55:39,360 INFO    HandlerThread:60570 [interfaces.py:finish():202] Joined cpu monitor
+2023-09-15 02:55:39,360 INFO    HandlerThread:60570 [interfaces.py:finish():202] Joined disk monitor
+2023-09-15 02:55:39,371 INFO    HandlerThread:60570 [interfaces.py:finish():202] Joined gpu monitor
+2023-09-15 02:55:39,371 INFO    HandlerThread:60570 [interfaces.py:finish():202] Joined memory monitor
+2023-09-15 02:55:39,371 INFO    HandlerThread:60570 [interfaces.py:finish():202] Joined network monitor
+2023-09-15 02:55:39,372 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,372 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 2
+2023-09-15 02:55:39,372 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 3
+2023-09-15 02:55:39,372 DEBUG   SenderThread:60570 [sender.py:send():379] send: stats
+2023-09-15 02:55:39,372 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,372 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 3
+2023-09-15 02:55:39,372 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,372 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 3
+2023-09-15 02:55:39,372 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 4
+2023-09-15 02:55:39,372 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,372 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 4
+2023-09-15 02:55:39,373 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,373 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 4
+2023-09-15 02:55:39,373 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 5
+2023-09-15 02:55:39,373 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,373 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 5
+2023-09-15 02:55:39,373 DEBUG   SenderThread:60570 [sender.py:send():379] send: summary
+2023-09-15 02:55:39,373 INFO    SenderThread:60570 [sender.py:_save_file():1375] saving file wandb-summary.json with policy end
+2023-09-15 02:55:39,373 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,373 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 5
+2023-09-15 02:55:39,373 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 6
+2023-09-15 02:55:39,374 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,374 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 6
+2023-09-15 02:55:39,374 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,374 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 6
+2023-09-15 02:55:39,374 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 7
+2023-09-15 02:55:39,374 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: status_report
+2023-09-15 02:55:39,374 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:39,374 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 7
+2023-09-15 02:55:39,374 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:39,374 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 7
+2023-09-15 02:55:39,888 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:40,353 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-15 02:55:41,553 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 8
+2023-09-15 02:55:41,553 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: poll_exit
+2023-09-15 02:55:41,553 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:41,554 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 8
+2023-09-15 02:55:41,554 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:41,554 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 8
+2023-09-15 02:55:41,554 INFO    SenderThread:60570 [job_builder.py:build():281] Attempting to build job artifact
+2023-09-15 02:55:41,554 INFO    SenderThread:60570 [job_builder.py:_get_source_type():404] no source found
+2023-09-15 02:55:41,554 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 9
+2023-09-15 02:55:41,554 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:41,554 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 9
+2023-09-15 02:55:41,554 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:41,555 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 9
+2023-09-15 02:55:41,555 INFO    SenderThread:60570 [dir_watcher.py:finish():358] shutting down directory watcher
+2023-09-15 02:55:41,888 INFO    Thread-12 :60570 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:55:41,889 INFO    SenderThread:60570 [dir_watcher.py:finish():388] scan: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files
+2023-09-15 02:55:41,889 INFO    SenderThread:60570 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-metadata.json wandb-metadata.json
+2023-09-15 02:55:41,889 INFO    SenderThread:60570 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/conda-environment.yaml conda-environment.yaml
+2023-09-15 02:55:41,889 INFO    SenderThread:60570 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json wandb-summary.json
+2023-09-15 02:55:41,891 INFO    SenderThread:60570 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/config.yaml config.yaml
+2023-09-15 02:55:41,892 INFO    SenderThread:60570 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log output.log
+2023-09-15 02:55:41,892 INFO    SenderThread:60570 [dir_watcher.py:finish():402] scan save: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/requirements.txt requirements.txt
+2023-09-15 02:55:41,892 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 10
+2023-09-15 02:55:41,892 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:41,892 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 10
+2023-09-15 02:55:41,892 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:41,892 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 10
+2023-09-15 02:55:41,892 INFO    SenderThread:60570 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-15 02:55:42,239 INFO    wandb-upload_1:60570 [upload_job.py:push():131] Uploaded file /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/wandb-summary.json
+2023-09-15 02:55:42,251 INFO    wandb-upload_0:60570 [upload_job.py:push():131] Uploaded file /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/conda-environment.yaml
+2023-09-15 02:55:42,395 INFO    wandb-upload_3:60570 [upload_job.py:push():131] Uploaded file /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/output.log
+2023-09-15 02:55:42,402 INFO    wandb-upload_2:60570 [upload_job.py:push():131] Uploaded file /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/config.yaml
+2023-09-15 02:55:42,406 INFO    wandb-upload_4:60570 [upload_job.py:push():131] Uploaded file /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/files/requirements.txt
+2023-09-15 02:55:42,606 INFO    Thread-11 (_thread_body):60570 [sender.py:transition_state():612] send defer: 11
+2023-09-15 02:55:42,607 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:42,607 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 11
+2023-09-15 02:55:42,607 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:42,607 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 11
+2023-09-15 02:55:42,607 INFO    SenderThread:60570 [file_pusher.py:join():181] waiting for file pusher
+2023-09-15 02:55:42,607 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 12
+2023-09-15 02:55:42,607 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:42,607 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 12
+2023-09-15 02:55:42,607 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:42,607 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 12
+2023-09-15 02:55:42,607 INFO    SenderThread:60570 [file_stream.py:finish():594] file stream finish called
+2023-09-15 02:55:43,031 INFO    SenderThread:60570 [file_stream.py:finish():598] file stream finish is done
+2023-09-15 02:55:43,032 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 13
+2023-09-15 02:55:43,032 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:43,032 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 13
+2023-09-15 02:55:43,032 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:43,032 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 13
+2023-09-15 02:55:43,032 INFO    SenderThread:60570 [sender.py:transition_state():612] send defer: 14
+2023-09-15 02:55:43,032 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: defer
+2023-09-15 02:55:43,032 INFO    HandlerThread:60570 [handler.py:handle_request_defer():170] handle defer: 14
+2023-09-15 02:55:43,032 DEBUG   SenderThread:60570 [sender.py:send():379] send: final
+2023-09-15 02:55:43,032 DEBUG   SenderThread:60570 [sender.py:send():379] send: footer
+2023-09-15 02:55:43,032 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: defer
+2023-09-15 02:55:43,033 INFO    SenderThread:60570 [sender.py:send_request_defer():608] handle sender defer: 14
+2023-09-15 02:55:43,033 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: poll_exit
+2023-09-15 02:55:43,033 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: server_info
+2023-09-15 02:55:43,033 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: get_summary
+2023-09-15 02:55:43,033 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: sampled_history
+2023-09-15 02:55:43,034 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: internal_messages
+2023-09-15 02:55:43,034 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: poll_exit
+2023-09-15 02:55:43,035 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: server_info
+2023-09-15 02:55:43,036 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: job_info
+2023-09-15 02:55:43,100 DEBUG   SenderThread:60570 [sender.py:send_request():406] send_request: job_info
+2023-09-15 02:55:43,100 INFO    MainThread:60570 [wandb_run.py:_footer_history_summary_info():3557] rendering history
+2023-09-15 02:55:43,100 INFO    MainThread:60570 [wandb_run.py:_footer_history_summary_info():3589] rendering summary
+2023-09-15 02:55:43,101 INFO    MainThread:60570 [wandb_run.py:_footer_sync_info():3516] logging synced files
+2023-09-15 02:55:43,101 DEBUG   HandlerThread:60570 [handler.py:handle_request():144] handle_request: shutdown
+2023-09-15 02:55:43,101 INFO    HandlerThread:60570 [handler.py:finish():840] shutting down handler
+2023-09-15 02:55:44,036 INFO    WriterThread:60570 [datastore.py:close():294] close: /home/baihe_huang/q_func/wandb/run-20230915_025008-osaiqr9c/run-osaiqr9c.wandb
+2023-09-15 02:55:44,101 INFO    SenderThread:60570 [sender.py:finish():1531] shutting down sender
+2023-09-15 02:55:44,102 INFO    SenderThread:60570 [file_pusher.py:finish():175] shutting down file pusher
+2023-09-15 02:55:44,102 INFO    SenderThread:60570 [file_pusher.py:join():181] waiting for file pusher

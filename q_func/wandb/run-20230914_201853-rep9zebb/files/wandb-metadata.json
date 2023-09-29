@@ -1,0 +1,52 @@
+{
+    "os": "Linux-5.10.0-25-cloud-amd64-x86_64-with-glibc2.31",
+    "python": "3.10.12",
+    "heartbeatAt": "2023-09-14T20:18:54.073042",
+    "startedAt": "2023-09-14T20:18:53.742986",
+    "docker": null,
+    "cuda": null,
+    "args": [
+        "--rollout_path",
+        "sac_hopper",
+        "--task",
+        "reward"
+    ],
+    "state": "running",
+    "program": "/home/baihe_huang/q_func/cs285/scripts/approx.py",
+    "codePathLocal": "cs285/scripts/approx.py",
+    "codePath": "cs285/scripts/approx.py",
+    "host": "rlapp",
+    "username": "baihe_huang",
+    "executable": "/home/baihe_huang/anaconda3/envs/rl/bin/python",
+    "cpu_count": 1,
+    "cpu_count_logical": 1,
+    "cpu_freq": {
+        "current": 2199.998,
+        "min": 0.0,
+        "max": 0.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2199.998,
+            "min": 0.0,
+            "max": 0.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 196.61751174926758,
+            "used": 36.71299743652344
+        }
+    },
+    "gpu": "Tesla V100-SXM2-16GB",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "Tesla V100-SXM2-16GB",
+            "memory_total": 17179869184
+        }
+    ],
+    "memory": {
+        "total": 3.5927658081054688
+    }
+}
