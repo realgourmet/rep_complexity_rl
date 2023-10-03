@@ -5,20 +5,19 @@
 Install required packages
 
 ```bash
+cd q_func
 pip install -r requirements.txt
 ```
 
 Run training:
 
 ```bash
-cd q_func
 ./run_training.sh
 ```
 
 Run approximation:
 
 ```bash
-cd q_func
 ./run_rollout.sh
 ./run_commands.sh
 ```
