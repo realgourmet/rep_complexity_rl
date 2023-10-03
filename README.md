@@ -9,6 +9,14 @@ cd q_func
 pip install -r requirements.txt
 ```
 
+Make codes executable:
+```bash
+chmod +x run_commands.sh
+chmod +x run_training.sh
+chmod +x run_rollout.sh
+```
+
+
 Run training:
 
 ```bash
