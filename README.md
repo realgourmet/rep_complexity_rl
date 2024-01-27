@@ -1,7 +1,5 @@
 # rep_complexity_rl
 
-## How to use
-
 Install required packages
 
 ```bash
